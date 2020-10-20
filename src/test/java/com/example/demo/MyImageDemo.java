@@ -22,8 +22,8 @@ public class MyImageDemo {
         graphics2D.setFont(f1);
 //        graphics2D.setColor(Color.black);
         graphics2D.setPaint(Color.black);
-        graphics2D.drawString("张应得 天九共享平台投资集团", 60,  30);
-        graphics2D.drawString("电话： 15810616126", 60,  60);
+        graphics2D.drawString("张应得 天九共享平台投资集团", 60, sku.getHeight() + 30);
+        graphics2D.drawString("电话： 15810616126", 60, sku.getHeight() + 60);
         graphics2D.dispose();
         dt = dt.getSubimage(0, 0, sku.getWidth(), sku.getHeight() + ewm.getWidth() + 60);
         ImageIO.write(dt, "png", new File("/Users/huzipeng/Desktop/3.png"));
